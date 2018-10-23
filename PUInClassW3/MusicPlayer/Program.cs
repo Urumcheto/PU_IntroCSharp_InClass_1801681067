@@ -24,14 +24,13 @@ namespace MusicPlayer
                     // Use PlaySync to load and then play the sound.
                     // ... The program will pause until the sound is complete.
                     player.PlaySync();
-
                 }
+            }
             else if(answer == "No")
-
             {
                     Console.WriteLine("Goodbye");
 
-               
+            }
              else 
             {
                     Console.WriteLine("Wrong input");
@@ -47,3 +46,4 @@ namespace MusicPlayer
         }
     }
 }
+    
